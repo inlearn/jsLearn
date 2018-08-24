@@ -18,5 +18,13 @@ module.exports=
 {
 hello:hello,
 greet:greet,
-name=default_name
+name:default_name
 }
+
+--------main.js------
+
+var module_one=require('./hello');
+
+module_one.hello();
+module_one.greet('Lily');
+module_one.greet(module_one.name);
