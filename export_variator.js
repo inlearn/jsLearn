@@ -11,7 +11,7 @@ var default_name='Jack';
 
 function greet(name)
 {
-console.log('hello'+name);
+console.log('hello '+name);
 }
 
 module.exports=
